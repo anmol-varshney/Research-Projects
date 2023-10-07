@@ -60,6 +60,15 @@ To use this script, follow these steps:
     4. The webcam feed will open, and you will see real-time pose and landmark detection on the video.
     5. Press the 'q' key to exit the application.
 
+## Results
+
+|   Model          | Training Accuracy | Training Loss | Training AUC | Validation Accuracy | Validation Loss | Validation AUC | F1 Score | Precision | Recall   |
+|------------------|-------------------|---------------|--------------|--------------------|-----------------|----------------|----------|-----------|----------|
+| CNN              | 0.994             | 0.018         | 0.999        | 0.943              | 0.172           | 0.996          | 0.943    | 0.947     | 0.943    |
+| VGG16            | 0.999             | 0.009         | 0.999        | 0.956              | 4.386           | 0.975          | 0.954    | 0.958     | 0.956    |
+| EfficientNetB0   | 0.951             | 0.169         | 0.997        | 0.951              | 0.169           | 0.997          | 0.949    | 0.957     | 0.951    |
+| MobileNetV2      | 0.946             | 1.195         | 0.975        | 0.946              | 1.195           | 0.975          | 0.945    | 0.949     | 0.946    |
+
 
 ## Note
 
